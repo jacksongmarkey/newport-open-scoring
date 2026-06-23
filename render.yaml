@@ -12,7 +12,3 @@ services:
         value: 20.11.1
       - key: ADMIN_TOKEN
         generateValue: true
-    disk:
-      name: scores-data
-      mountPath: /var/data
-      sizeGB: 1
